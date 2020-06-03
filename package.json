@@ -1,7 +1,8 @@
 {
   "name": "fcc-learn-npm-package-json",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "moment": "^2.26.0"
   },
   "main": "server.js",
   "scripts": {
@@ -14,5 +15,13 @@
     "type": "git",
     "url": "https://idontknow/todo.git"
   },
-  "author": "Faderr"
+  "author": "Faderr",
+  "description": "An awesome project",
+  "keywords": [
+    "descriptive",
+    "related",
+    "freecodecamp"
+  ],
+  "license": "MIT",
+  "version": "1.2.0"
 }
